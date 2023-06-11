@@ -1,0 +1,13 @@
+#!/bin/bash
+cp sample-files/Nicolay_Copy.txt plaintext/
+
+echo "reading the file to enccrypt"
+
+cat plaintext/Nicolay_Copy.txt
+
+openssl enc -v -P  -p -nosalt -aes-256-cbc -K 4e6f772077652061726520656e676167656420696e2061206772656174206369 -iv 23ae14f4a7b2dc7f1dd89cf6f07e4048 -in plaintext/Nicolay_Copy.txt -out  plaintext-enc/secretwork.enc
+bufsize=8192
+
+echo "text becomes unreadable"
+
+cat plaintext-enc/secretwork.enc
