@@ -1,0 +1,84 @@
+devel@pi4-50:~/openssl-teest $ diffuse plaintext-dec/gettyburg.dec sample-files/Nicolay_Copy.txt &
+
+devel@pi4-50:~/openssl-teest $ ./scripts/gettysburg.enc 
+reading the file to enccrypt
+There are 2 scripts that can encrypt the gettyburg address. When you need to depress
+the space since the encrypted the is quite long.
+
+ devel@pi4-50:~/openssl-teest $ ./scripts/gettysburg.enc 
+reading the file to enccrypt
+Named for John G. Nicolay, President Lincoln's personal secretary, this is considered the "first draft" of the 
+speech, begun in Washington on White house stationery. The second page is writen on different paper stock, 
+indicating it was finished in Gettysburg before the cemetery dedication began. Lincoln gave this draft 
+to Nicolay, who went to Gettysburg with Lincoln and witnessed the speech. The Library of Congress owns this manuscript.
+
+ Four score and seven years ago our fathers brought forth, upon this continent, a new nation, conceived in 
+liberty, and dedicated to the proposition that all men are created equal.
+
+Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived, and so 
+dedicated, can long endure. We are met on a great battle field of that war. We come to dedicate a portion of 
+it, as a final resting place for those who died here, that the nation might live. This we may, in all propriety do.
+
+But, in a larger sense, we can not dedicate we can not consecrate we can not hallow, this ground The brave men, 
+living and dead, who struggled here, have hallowed it, far above our poor power to add or detract. The world will 
+little note, nor long remember what we say here; while it can never forget what they did here.
+
+It is rather for us, the living, we here be dedicated to the great task remaining before us that, from these 
+honored dead we take increased devotion to that cause for which they here, gave the last full measure of 
+devotion that we here highly resolve these dead shall not have died in vain; that the nation, shall have a new birth 
+of freedom, and that government of the people, by the people, for the people, shall not perish from the earth.
+
+Extra arguments given.
+enc: Use -help for summary.
+text becomes unreadable
+>M_Y,[7M'w~tRSB{ns|v$u|͕*SÄJEnm
+PC^O}heE_B(.zga?)H
+                  =,\Oŉ&#V<
+
+'v,{c:Ip2]|]p"Q".:[lc~l0~E+'~Wn!B$OhGĲn+FCĜי4Kz^O
+                                                 sb~3
+                                                        oi`?叢!ن]5+YVs$8;gK5kO-PmaI@=\ԕcOJn@45L
+/҈6Ev~X村jnс`zɧwhK_ ib.!ｉWLr]t<yyηՇٱ=L)B
+                                        JE2uv".ak
+.m3!qi
+      d0Ʃvt#S+˞&fOᘕ@būBl*"aa`x1;5SP
+/c      5Dxŷ                       AJY]#z+XI%K$L^tXz-~KNZ1p`dٮKhGm
+            Ytl| ?GVEtTVUjaQxYx[Wj,ߛn^8~39
+
+                                          }_W~G1ƙIG4l݊D<1Cۺ]0FL0na0_Y]u"Ӱ司?(FC=9+1~囤[ZbQI\e_{VeФHfjcTګLAVjoyBm҅U:-ƈ`m9SsOxG0!}mw^nqƒGQjUD!_%.|©LA1l'C?*{V42Q>*"oI^Yq&bIkyQChXkOVF!͏O"[8Ϋ_$R&<*M'-%oH9KʩIPI  ~b       "_npAM;J1
+             ",e|a1W-lXTQ8K0X#eDgSͽ     ߋۂUOBqZ£G)      Z'=RZdI!2Y
+"bNwEWU$|%umJ?
+              c!ǉ%#%ֈk{ 
+                        6=ACHސ#ʿrwWeD}J__=B4ultT"W}}gzb)1)Vb|H\Q㲍SVC3
+
+~)6vjw@5devel@pi4-50:~/openssl-teest $  /X!6%g9{<E) ֨MnE "1߭*Ep1x
+
+
+devel@pi4-50:~/openssl-teest $ ./scripts/gettysburg.dec 
+reading the file to perform decryption
+decryption
+bufsize=8192
+key=4E6F772077652061726520656E676167656420696E2061206772656174206369
+iv =23AE14F4A7B2DC7F1DD89CF6F07E4048
+bytes read   :     1744
+bytes written:     1731
+Named for John G. Nicolay, President Lincoln's personal secretary, this is considered the "first draft" of the 
+speech, begun in Washington on White house stationery. The second page is writen on different paper stock, 
+indicating it was finished in Gettysburg before the cemetery dedication began. Lincoln gave this draft 
+to Nicolay, who went to Gettysburg with Lincoln and witnessed the speech. The Library of Congress owns this manuscript.
+
+ Four score and seven years ago our fathers brought forth, upon this continent, a new nation, conceived in 
+liberty, and dedicated to the proposition that all men are created equal.
+
+Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived, and so 
+dedicated, can long endure. We are met on a great battle field of that war. We come to dedicate a portion of 
+it, as a final resting place for those who died here, that the nation might live. This we may, in all propriety do.
+
+But, in a larger sense, we can not dedicate we can not consecrate we can not hallow, this ground The brave men, 
+living and dead, who struggled here, have hallowed it, far above our poor power to add or detract. The world will 
+little note, nor long remember what we say here; while it can never forget what they did here.
+
+It is rather for us, the living, we here be dedicated to the great task remaining before us that, from these 
+honored dead we take increased devotion to that cause for which they here, gave the last full measure of 
+devotion that we here highly resolve these dead shall not have died in vain; that the nation, shall have a new birth 
+of freedom, and that government of the people, by the people, for the people, shall not perish from the earth.
